@@ -1,5 +1,5 @@
 /*font links*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
@@ -12,6 +12,14 @@
 
     --pop: "Poppins", serif;
     --rob: "Roboto", serif;
+}
+
+/*common css*/
+body {
+    font-family: var(--pop);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
 }
 
 /*header start*/
@@ -64,12 +72,11 @@ header {
 }
 
 .b_p1 {
-    font-weight: 500;
     color: var(--orange); 
 }
 
 .b_h1 {
-    margin: 10px 50px 20px 0;
+    margin: 10px 40px 20px 0;
     font-size: 48px;
     font-weight: 700;
     color: var(--black); 
@@ -81,7 +88,6 @@ header {
 }
 
 .b_p2 {
-    font-weight: 650;
     line-height: 36px;
 } 
 
@@ -91,8 +97,8 @@ header {
 } 
 /*banner end*/
 /*feature start*/
-.feature {
-    padding: 0 0 100px;
+.c_padding {
+    padding-bottom: 100px;
 }
 
 .f_item {
@@ -124,13 +130,52 @@ header {
     box-shadow: 0px 20px 40px 0px #0000001A;
 }
 /*feature end*/
-
 /*course start*/
+.c_h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--black); 
+    line-height: 54px; 
+}
+
+.co_item {
+    margin: 60px 0 0;
+    padding: 24px 20px 30px;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    border-radius: 18px;
+}
+
+.co_h2 {
+    margin: 19px 0 3px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--black); 
+    line-height: 36px; 
+}
+
+.co_p {
+    color: #585859;
+}
+
+.btn_co {
+    margin: 19px 0 34px;
+    padding: 8px 28px;
+}
+
+.co_left span, .co_right span {
+    font-weight: 500; 
+    color: #585859;
+}
 /*course end*/
-
 /*testimony start*/
-/*testimony end*/
+.t_item {
+    margin-top: 60px;
+}
 
+.t_img img {
+    width: 100%;
+}
+/*testimony end*/
 /*footer top start*/
 .footer_top {
     padding: 55px 0 55px;
@@ -174,7 +219,7 @@ footer p {
 
 footer p a {
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #CDCDCD;
 }
 /*footer end*/
