@@ -31,7 +31,6 @@
 
     .b_p2 {
         margin: 0;
-        font-weight: 600;
         line-height: 30px; 
     }
 
@@ -40,7 +39,62 @@
         padding: 0;  
     }
 	/*banner end*/
+	/*feature start*/
+	.c_padding {
+        padding-bottom: 60px;
+    }
 
+    .f_img {
+    	width: 56px;
+    	height: 72px;
+    }
+
+    .f_h2 {
+    	font-size: 20px;
+    	line-height: 30px; 
+    }
+	/*feature end*/
+	/*course start*/
+	.c_h1 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+
+	.co_item {
+		margin: 30px 0 0;
+		padding: 20px 15px 20px;
+	}
+
+	.co_h2 {
+		font-size: 20px;
+	}
+
+	.co_left img, .co_right img {
+		width: 20px;
+	}
+
+	.co_left span, .co_right span {
+		font-size: 15px;
+        font-weight: 400;
+    }
+
+    .lii:not(:last-child) {
+    	margin-right: 2px;
+    }
+	/*course end*/
+	/*testimony start*/
+	.t_item {
+		margin-top: 30px;
+	}
+
+	.t_img {
+		padding: 0 60px 20px;
+	}
+
+	.t_text {
+		text-align: center;
+	}
+	/*testimony end*/
 	/*footer top start*/
 	.footer_top {
 		text-align: center;
@@ -91,7 +145,6 @@
 
     .b_p2 {
         margin: 0 40px;
-        font-weight: 600;
         line-height: 30px; 
     }
 
@@ -100,7 +153,49 @@
         padding: 0 50px;  
     }
 	/*banner end*/
+	/*feature start*/
+	.c_padding {
+        padding-bottom: 60px;
+    }
 
+    .f_img {
+    	width: 56px;
+    	height: 72px;
+    }
+
+    .f_h2 {
+    	font-size: 20px;
+    	line-height: 30px; 
+    }
+	/*feature end*/
+	/*course start*/
+	.c_h1 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+
+	.co_item {
+		margin: 40px 50px 0;
+		padding: 20px 15px 20px;
+	}
+
+	.co_h2 {
+		font-size: 20px;
+	}
+	/*course end*/
+	/*testimony start*/
+	.t_item {
+		margin-top: 30px;
+	}
+
+	.t_img {
+		padding: 0 120px 20px;
+	}
+
+	.t_text {
+		text-align: center;
+	}
+	/*testimony end*/
 	/*footer top start*/
 	.footer_top {
 		text-align: center;
@@ -135,7 +230,6 @@
 
     .b_p2 {
         margin: 0 100px;
-        font-weight: 600;
         line-height: 30px; 
     }
 
@@ -144,7 +238,21 @@
         padding: 0 50px;  
     }
 	/*banner end*/
-
+	/*feature start*/
+	.c_padding {
+        padding-bottom: 80px;
+    }
+	/*feature end*/
+	/*course start*/
+	.co_item {
+		margin: 40px 100px 0;
+	}
+	/*course end*/
+	/*testimony start*/
+	.t_item {
+		margin-top: 40px;
+	}
+	/*testimony end*/
 	/*footer top start*/
 	.footer_top {
 		text-align: center;
@@ -160,6 +268,34 @@
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+	/*feature start*/
+	.f_img {
+		width: 56px;
+		height: 72px;
+	}
+
+	.f_h2 {
+		font-size: 20px;
+	}
+	/*feature end*/
+	/*course start*/
+	.co_item {
+		padding: 20px 15px 25px; 
+	}
+
+	.co_left img, .co_right img {
+		width: 20px;
+	}
+
+	.co_left span, .co_right span {
+		font-size: 15px;
+        font-weight: 400;
+    }
+
+    .lii:not(:last-child) {
+    	margin-right: 2px;
+    }
+	/*course end*/
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
